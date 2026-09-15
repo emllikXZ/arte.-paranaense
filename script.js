@@ -1,16 +1,16 @@
-const botoesCurtir = document.querySelectorAkk(".curtir");
+const botoesCurtir = document.querySelectorAll(".curtir");
 
 botoesCurtir.forEach(funtion(botaoCurtir){
     let curtiu = false;
-    botaocurtir.addEventListener("click", curtir);
+    botaoCurtir.addEventListener("click", curtir);
 
-function curtir(){
+    function curtir(){
     const contador = botaoCurtir.querySelector("span");
     if(curtiu === false){ 
     contador.rexrContent++;
     curtiu = true;}
     else{
-        con.textContent--;
+        contador.textContent--;
         curtiu = false;
     }
 }
