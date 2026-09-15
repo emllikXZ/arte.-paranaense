@@ -8,11 +8,10 @@ function curtir(){
     const contador = botaoCurtir.querySelector("span");
     if(curtiu === false){ 
     contador.rexrContent++;
-    curtiu = true;
+    curtiu = true;}
     else{
         con.textContent--;
         curtiu = false;
     }
-}
 }
 });
