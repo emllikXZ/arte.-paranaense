@@ -1,20 +1,115 @@
-body{
-    background-color:blue;
-    color:crimson
+body {
+background-color: #83a3fc;
+color: #083203;
+font-family: Arial, sans-serif;
+margin:0;
 }
-header{
-    background-color:blueviolet;
-    color:black;
+
+header {
+background-color: #4b53c7;
+color: #ffffff;
+text-align: center;
+padding: 45px;
 }
-main{
-    background-color:aqua;
-    color:darkblue;
+
+h1 {
+font-size: 36px;
 }
-section{
-    background-color:deeppink;
-    color:darkmagenta;
+
+h2 {
+color: #152ba8;
 }
-footer{
-    background-color: darkred;
-    color:antiquewhite;
+
+p {
+font-size: 18px;
+line-height: 1.6;
+}
+nav {
+margin-top: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+background-color: #222a99;
+padding: 10px 15px;
+border-radius: 8px;
+margin: 5px;
+display: inline-block;
+}
+
+nav a:hover {
+background-color: #0c0a81;
+}
+
+main {
+width: 80%;
+margin: auto;
+}
+main {
+width: 80%;
+margin:auto;
+}
+
+select{
+background-color: white;
+margin: 20px 0;
+padding:20px ;
+border-radius: 12px;
+}
+
+img {
+width: 100%;
+max-width: 600px;
+display:block ;
+margin:auto;
+border-radius: 12px;
+
+}
+figcaption {
+text-align: center;
+font-size: 14px;
+color: #555555;
+margin-top: 8px;
+}
+section {
+background-color: white;
+margin: 20px 0;
+padding: 20px;
+border-radius: 12px;
+}
+
+img {
+width: 100%;
+max-width: 600px;
+display: block;
+margin: auto;
+border-radius: 12px;
+}
+
+figcaption {
+text-align: center;
+font-size: 14px;
+color: #555555;
+margin-top: 8px;
+}
+
+.card {
+background-color: #d6ffd5;
+padding: 15px;
+margin: 15px 0;
+border-left: 6px solid #282a8a;
+border-radius: 10px;
+}
+
+.card h3 {
+margin-top: 0;
+}
+
+footer {
+background-color: #030432;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 30px;
 }
